@@ -1,0 +1,58 @@
+.profile {
+    width: 50%;
+    height: 50%;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+    margin: auto;
+}
+
+.picture {
+    background:url("Profile.jpg");
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin:0 auto;
+    box-shadow: 
+    0px 0px 2px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaaf,
+    -8px -8px 15px #ffffff;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+  .school {
+    text-align: center;
+    font-size: 20   px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+  }
+
+  .github {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 100px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
