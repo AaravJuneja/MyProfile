@@ -1,13 +1,13 @@
 .profile {
-    width: 50%;
-    height: 50%;
-    padding: 60px 35px 35px 35px;
-    border-radius: 40px;
-    background: #ecf0f3;
-    box-shadow: 13px 13px 13px 20px #cbced1,
-                -13px -13px 20px #ffffff;
-    margin: auto;
-}
+  width: 1000px;
+  height: 500px;
+  border-radius: 50px;
+  background: #f0f8ff;
+  box-shadow:  35px 35px 70px #cad0d6,
+               -35px -35px 70px #ffffff;
+  margin: auto;
+  }
+
 
 .picture {
     background:url("Profile.jpg");
@@ -84,10 +84,10 @@
   .text {
     width: 50%;
     height: 50%;
-    padding: 60px 35px 35px 35px;
-    border-radius: 40px;
-    background: #ecf0f3;
-    box-shadow: 13px 13px 13px 20px #cbced1,
-                -13px -13px 20px #ffffff;
+    padding: 100px 35px 35px 35px;
+    border-radius: 50px;
+    background: #f0f8ff;
+    box-shadow:  35px 35px 70px #cad0d6,
+                 -35px -35px 70px #ffffff;
     margin: auto;
   }
