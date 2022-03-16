@@ -1,6 +1,6 @@
 .profile {
-  width: 1000px;
-  height: 500px;
+  width: 55%;
+  height: 100%;
   border-radius: 50px;
   background: #f0f8ff;
   box-shadow:  35px 35px 70px #cad0d6,
@@ -82,12 +82,12 @@
   }
 
   .text {
-    width: 50%;
+    width: 40%;
     height: 50%;
     padding: 100px 35px 35px 35px;
     border-radius: 50px;
     background: #f0f8ff;
-    box-shadow:  35px 35px 70px #cad0d6,
-                 -35px -35px 70px #ffffff;
+    box-shadow: 35px 35px 70px #cad0d6,
+                -35px -0px 70px #ffffff;
     margin: auto;
   }
