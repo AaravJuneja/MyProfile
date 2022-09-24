@@ -1,6 +1,6 @@
 {
-    "success": true|false,
-    "challenge_ts": timestamp,  // timestamp of the challenge load (ISO format yyyy-MM-dd'T'HH:mm:ssZZ)
-    "hostname": string,         // the hostname of the site where the reCAPTCHA was solved
-    "error-codes": [...]        // optional
+    "success": true,
+    "challenge_ts": "2022-09-24'T'19:25:00ZZ",
+    "hostname": "https://myprofile-b6ebd.web.app/",
+    "error-codes": []
   }
