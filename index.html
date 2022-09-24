@@ -28,49 +28,5 @@
                 </div>
             </div>
         <script src="app.js"></script>
-        <script type="module">
-            // Import the functions you need from the SDKs you need
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
-            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
-            // TODO: Add SDKs for Firebase products that you want to use
-            // https://firebase.google.com/docs/web/setup#available-libraries
-          
-            // Your web app's Firebase configuration
-            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-            const firebaseConfig = {
-              apiKey: "AIzaSyCp-_Iqjsxq_Lxt1S0gJXryhYPI6f25p_s",
-              authDomain: "myprofile-b6ebd.firebaseapp.com",
-              projectId: "myprofile-b6ebd",
-              storageBucket: "myprofile-b6ebd.appspot.com",
-              messagingSenderId: "1015249329353",
-              appId: "1:1015249329353:web:9361e0b2e1829fab714118",
-              measurementId: "G-E9H838W47M"
-            };
-          
-            // Initialize Firebase
-            const app = initializeApp(firebaseConfig);
-            const analytics = getAnalytics(app);
-          </script>
-           <script src="https://www.google.com/recaptcha/api.js"></script>
-           <script>
-            function onSubmit(token) {
-              document.getElementById("demo-form").submit();
-            }
-          </script>
-          <button class="g-recaptcha" 
-          data-sitekey="reCAPTCHA_site_key" 
-          data-callback='onSubmit' 
-          data-action='submit'>Submit</button>
-          <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
-          <script>
-            function onClick(e) {
-              e.preventDefault();
-              grecaptcha.ready(function() {
-                grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
-                    // Add your logic to submit to your backend server here.
-                });
-              });
-            }
-        </script>
     </body>
 </html>
